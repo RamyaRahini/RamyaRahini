@@ -1,59 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML CRUD with pure Javascript</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <table>
-        <tr>
-            <td>
-                <form autocomplete="off">
-                <div>
-                    <label>Full Name</label>
-                    <input type="text" name="FullName" id="fullname">
-                </div>
-                <div>
-                    <label>EMP code</label>
-                    <input type="text" name="empcode" id="empcode">
-                </div>
-                <div>
-                   <label>Salary</label>
-                   <input type="text" name="Salary" id="Salary">
-                </div>
-                <div>
-                    <label>City</label>
-                    <input type="text" name="city" id="city">
-                </div>
-                 <div class="form-action-button">
-                     <input type="submit" value="submit">
-                    
-                 </div>
-                </form>
-            </td>
-            <td>
-              <table class="list" id="empolyeeList"></table>
-              <thead>
-                  <div class="sec-1">
-                  <tr>
-                      <th>FullName</th>
-                      <th>EMP Code</th>
-                      <th>Salary</th>
-                      <th>City</th>
-                      <th></th>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <!--<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
 
-                  </tr>
-                  </div>
-              </thead>
-            </td>
-        </tr>
-    </table>
+        <title>Form Validation</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="header">
+                <h2>Form Registration</h2>
+            </div>
+            
+            <form action="" class="form">
+                <div class="form-group "> 
+                  <label for=""> UserName :</label>
+                <input type="text" placeholder="UserName" id="UserName" autocomplete="off">
+                <span>* Invalid UserName</span>
+                </div>
+                <div class="form-group">
+                  <label for=""> Email :</label>
+                  <input type="Email" placeholder="Email" id="Email" autocomplete="off">
+                <span> * Invalid Email</span>
+            </div>
+                <div class="form-group">
+                   <label for=""> PassWord :</label>
+                   <input type="password" placeholder="PassWord" id="PassWord" autocomplete="off">
+                <span>* Invalid PassWord</span>
+            </div>
+                <div class="form-group">
+                   <label for=""> PhoneNumber :</label>
+                   <input type="number" placeholder="PhoneNumber" id="PhoneNumber" autocomplete="off">
+                <span>* Invalid PhoneNumber </span>
+            </div> 
+            
+                <button id="sumbit">Sumbit</button>
+                
+            </div>
+            </form>
+        </div>
+        <script src="form.js"></script>
+        
 
-    
-    <script src="app.js"></script>
-    
-</body>
+    </body>
 </html>
+        
+        
+    
