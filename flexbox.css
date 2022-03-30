@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blue;
+    height: 100vh;
+}
+.header{
+    background-color: violet;
+    justify-content: center;
+    min-height: 20vh;
+    display: flex;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: navy;
+    padding: 1rem;
+    gap: 4px;
+    
+
+}
+.footer{
+    background-color: cadetblue;
+    height: 15vh;
+
+    
+    
+}
+.box{
+    background-color: cyan;
+    height: 60vh;
+    display: flex;
+    padding: 1rem;
+    gap: 4px;
+    text-align: center;
+}
+.box1{
+    background-color: tomato;
+    flex-grow: 1;
+    
+}
+.box2{
+    background-color: orangered;
+    flex-grow: 2;
+    
+    
+}
+.box3{
+    background-color: orange;
+    flex-grow: 1;
+    
+}
+
+/*-----secound one-------*/
+.container1{
+    background-color: rgb(139, 139, 155);
+    height: 100vh;
+}
+.row{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+}
+.header1{
+    background-color: mediumslateblue;
+    height: 10vh;
+    
+}
+.navigation{
+    background-color:mediumpurple;
+    height: 10vh;
+}
+.footer1{
+    background-color: mediumvioletred;
+    height: 10vh;
+    text-align: center;
+}
+.box-1{
+    background-color: mediumspringgreen;
+    height: 60vh;
+    display: flex;
+    padding: 1rem;
+    gap: 4px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.box1_1{
+    background-color: olive;
+    width: 50%;
+}
+.r-b{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    gap: 5px;
+}
+    
+.box2_1{
+    background-color: olivedrab;
+    height: 30vh;
+}
+.box3_1{
+    background-color: greenyellow;
+    height: 30vh;
+}
+
+    /*------3rd one-----*/
+ .container2{
+     background-color: lightcoral;
+     height: 100vh;
+ }
+ .header2{
+     background-color: lightsalmon;
+     min-height: 20vh;
+     text-align: center;
+ }
+ .footer2{
+     background-color: lightseagreen;
+     min-height: 10vh;
+     text-align: center;
+ }
+ .space{
+     background-color: navy;
+     min-height: 60vh;
+     padding: 30px;
+    }
+ .box-2{
+     background-color: lightslategray;
+     min-height: 30vh;
+     display: flex;
+     padding: 10px;
+     margin: 10px;
+     gap: 5px;
+     text-align: center;
+}
+ .box1_2{
+     background-color: lightyellow;
+     flex-grow: 1;
+}
+ .box2_2{
+     background-color:limegreen;
+     flex-basis: 33%;
+}
+ .box-3{
+    background-color: mediumspringgreen;
+    min-height: 30vh;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    
+}
+
+.box3_2{
+     background-color:lime ;
+     flex-basis: 65%;
+}
+ .box4_1{
+     background-color: mediumslateblue;
+     flex-basis: 30%;
+}
+
+
+
+/*---------4th-------*/ 
+
+.container3{
+    background-color: white;
+    height: 100vh;
+}
+.b-1{
+    background-color: lightgreen;
+    height: 15vh;
+    text-align: center;
+    
+}
+.bb1{
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    gap: 10px;
+    padding: 2px;
+    
+}
+.b-2{
+    background-color: lightseagreen;
+    flex-basis: 25%;
+}
+.b-3{
+    background-color: mediumorchid;
+    flex-basis: 25%;
+}
+.b-4{
+     background-color: navajowhite;
+     flex-basis: 25%;
+}
+.b-5{
+    background-color: orchid;
+    height: 65vh ;
+    flex-basis: 22%;
+    margin: 10px;
+    padding: 10px;
+}
+.b-6{
+    background-color: mediumaquamarine;
+    padding: 10px;
+    margin: 10px;
+    height: 45vh;
+    width: 72vw;
+}
+.b-7{
+    background-color: lightslategray;
+    height: 15vh;
+    text-align: center;
+}
+
+/*-----------5th-----------*/
+.container5{
+    background-color: violet;
+    height: 100vh;
+}
+.cc-1{
+    background-color: yellow;
+    height: 20vh;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 8px;
+    text-align: center;
+}
+.c-1{
+    background-color: violet;
+    flex-basis: 80%;
+}
+.c-2{
+    background-color: yellowgreen;
+    flex-basis: 20%;
+}
+
+
+.cc-0{
+    background-color: mediumspringgreen;
+    height: 60vh;
+    display: flex;
+    padding: 1rem;
+    gap: 4px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.c-3{
+    background-color: olive;
+    width: 50%;
+}
+.cc-2{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    gap: 5px;
+}
+    
+.c-4{
+    background-color: olivedrab;
+    height: 30vh;
+}
+.c-5{
+    background-color: lightslategray;
+    height: 30vh;
+}
+.cc-3{
+    background-color: lightpink;
+    height: 15vh;
+    margin: 10px;
+    padding: 10px;
+    gap: 6px;
+    display: flex;
+    text-align: center;
+}
+.c-6{
+    background-color: lightseagreen;
+    flex-grow: 1;
+}
+.c-7{
+    background-color: lightslategray;
+    flex-grow: 1;
+}
+.c-8{
+    background-color: lightslategrey;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
