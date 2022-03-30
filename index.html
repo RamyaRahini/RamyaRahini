@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CRUD with pure Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off">
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" name="FullName" id="fullname">
+                </div>
+                <div>
+                    <label>EMP code</label>
+                    <input type="text" name="empcode" id="empcode">
+                </div>
+                <div>
+                   <label>Salary</label>
+                   <input type="text" name="Salary" id="Salary">
+                </div>
+                <div>
+                    <label>City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+                 <div class="form-action-button">
+                     <input type="submit" value="submit">
+                    
+                 </div>
+                </form>
+            </td>
+            <td>
+              <table class="list" id="empolyeeList"></table>
+              <thead>
+                  <div class="sec-1">
+                  <tr>
+                      <th>FullName</th>
+                      <th>EMP Code</th>
+                      <th>Salary</th>
+                      <th>City</th>
+                      <th></th>
+
+                  </tr>
+                  </div>
+              </thead>
+            </td>
+        </tr>
+    </table>
+
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
