@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 80vh;
+    
+}
+nav{
+    
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+
+}
+
+.nav_links{
+    flex: 1;
+    text-align: right;
+}
+.nav_links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+}
+.nav_links ul li a{
+    color:blue;
+    font-weight: 500;
+    font: bolder;
+    text-decoration: none;
+
+}
+.home {
+
+        padding: 6px 23px;
+        background: rgb(141, 141, 241);
+        border-radius: 50px;
+        margin-top: 20px;
+        color: white;
+    }
+
+    /*--------section-------------*/
+
+.condainer{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1799FB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.main-page{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;    
+    left: 75px;
+    top: 150px;
+
+}
+.main-page h1{
+    color: white;
+    font-size: 60px;
+}
+h4{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: 800;
+}
+.main-page button{
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: rgb(243, 119, 119);
+    color: white;
+
+}
+button{
+    height: 50px;
+    width: 175px;
+    margin-top: 60px;
+    background-color: rgb(243, 119, 119);
+    border-radius: 100px;
+    
+}
+/*---------our serviers------------*/
+
+.serive-sec{
+    min-height: 100vh;
+    text-align: center;
+}
+.service h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 650;
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+}
+.service-col{
+    width: 27vw;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 22px;
+    box-shadow: 0 0 5px 5px rgb(85, 85, 87);
+    margin-left: 83px;
+    padding: 45px;
+}
+.service-col h3{
+    font-size: 25px;
+
+}
+.service-col p{
+    margin-top: 30px;
+    font-size: medium;
+}
+.read-more-a{
+    background:rgb(219, 206, 206);
+    width: 10vw;
+    height: 6vh;
+    border-radius: 50px;
+}
+
+
+/*--------about us----------*/
+
+.headers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aboutus-bottom>div{
+    display: flex;
+    flex-direction: row;
+    margin: 8%;
+}
+.icon{
+    width: 36rem;
+    margin: 1%;
+    height: 20rem;
+}
+.content h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.content p{
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+p{
+  line-height: 40px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+/*-----------meet our team--------------*/
+.team-sec{
+   margin: 0  150px;
+   display: flex;
+   flex-direction: row; 
+   justify-content: space-around; 
+   text-align: center;
+   margin-top: 100px;
+   
+}
+.m-o-t{
+    text-align: center;
+}
+
+
+/*---------spl servies-------------*/
+
+
+
+
+.headers-spl{
+    text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+}
+.spl-bottom{
+    padding:25px;
+    min-height: 300px;
+}
+.top,.between,.low{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+/*---------get in touch---------------*/
+.get-in-touch{
+    background-color: rgb(243, 241, 239);
+}
+.get-header{
+    text-align: center;
+    margin: 40px;
+    margin-top: 70px;
+    margin: 60px;
+
+}
+.frm-datials{
+    border-radius: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], textarea {
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+
+}
+textarea {
+    width: 100%;
+    height: 300px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: rgb(115, 141, 76);
+    color: white;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 2px;
+    
+  }
+.spl{
+   font-size: 20px;
+   line-height: 24px;
+     
+  } 
+
+  /*---------------------------*/
+  .footer{
+      margin-top: 150px;
+      width: 100%;
+      padding: 100px 15%;
+      background: rgb(155, 173, 155);
+      display: flex;
+  }
+  .footer div{
+      text-align: center;
+  }
+  .col-2{
+      flex-grow: 1;
+  }
+  .footer div h3{
+      font-weight: 300;
+      margin-bottom: 30px;
+  }
+
+  .col-1 a{
+      display: block;
+      text-decoration: none;
+      color:white;
+  }
+  .button{
+
+  
+  
+  width: 175px;
+
+  background-color: rgb(84, 97, 60);
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+    
+    
+
